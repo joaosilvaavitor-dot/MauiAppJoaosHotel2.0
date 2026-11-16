@@ -1,84 +1,67 @@
-Essa série de videoulas faz parte do meu curso grátis Criando Aplicativos com .NET MAUI. Em especial, 
+# 🏨 Joao´s Hotel
 
-Repositório do projeto AppHotel. O AppHotel faz um panorama sobre elementos de interface gráfica .NET MAUI como Stepper, DatePicker, Picker e uma introdução com conceito de BidingContext
+Um aplicativo para calcular o valor de uma hospedagem em hotel.
 
-## Playlist com todas as videoaulas de construção desse projeto
-- https://www.youtube.com/watch?v=ExstAh2vqjk&list=PLHVpcBDJr5dkC1RVRMbVsgpZgtfOxMtf-
+Você escolhe quantas pessoas vão, qual quarto prefere e em quais dias quer ficar. O app faz a conta e mostra o valor total.
 
-### AULA 5 - CRIANDO APLICATIVOS COM .NET MAUI - APPHOTEL - DATEPICKER, STEPPER E PICKER
--00:00 Introdução
-- 01:53 Criação do Projeto
-- 04:13 Compilando Projeto em Branco
-- 05:30 Ajustando o Tamanho da Tela
-- 08:48 Enviado o Projeto para Github
-- 10:08 Organizando a Estrutura do Projeto
-- 11:40 Adicionando mais Telas ao App
-- 15:15 Adicionando Fontes Personalizadas
-- 22:10 Modificando a Tela Inicial do App
-- 23:52 Construindo a Tela Inicial do App
-- 24:21 Escondendo a Barra de Navegação 
-- 25:10 Escolhendo Cores a partir de Estilos
-- 25:36 Explorando os arquivos de Estilos
-- 32:30 Definindo Componente ```Stepper```
-- 34:37 ```BindingContext``` no .NET MAUI
-- 39:00 Definindo Elemento ```Picker```
-- 42:56 Definindo Elemento ```DatePicker```
+Este projeto foi feito como atividade do curso Técnico em Desenvolvimento de Sistemas.
 
-### AULA 6 - CRIANDO APLICATIVOS COM .NET MAUI - APPHOTEL - BINDINGCONTEXT
-- 00:00 Enviando Alterações para Git
-- 01:20 Introdução
-- 01:51 Criando o método para navegar de tela
-- 02:44 Erro do InitializeComponent
-- 03:54 Navegando entre telas
-- 06:10 Layout da apresentação da hospedagem
-- 07:30 Definido a cor de fundo da página
-- 08:16 Construindo a Interface Gráfica
-- 13:28 Combinando ```Frame``` e ```Grid```
-- 17:00 Definindo o Botão Voltar
-- 18:39 Testando a navegação entre telas
-- 19:30 Definindo dos Models do App
-- 23:38 Estabelecendo a lista de Quartos
-- 24:40 Atalhos para using automático
-- 25:15 Definindo a lista de quartos
-- 27:50 Obtendo a lista de quartos
-- 30:50 Mostrando a lista de quartos no ```Picker```
-- 32:27 Validando as datas no ```DatePicker```
+## ✨ O que o app faz
+
+- Dá as boas-vindas ao hóspede em uma tela inicial
+- Permite escolher a quantidade de adultos e de crianças
+- Mostra uma lista de quartos para escolher
+- Permite marcar o dia de entrada e o dia de saída
+- Calcula o valor total da estadia automaticamente
+- Mostra um resumo da reserva
+- Mostra as promoções do hotel
+- Tem uma tela **Sobre** com informações de quem criou o app
+
+## 📱 Telas
+
+1. **Boas-vindas:** a primeira tela, com o nome do hotel e os botões para reservar, ver promoções e conhecer o app.
+2. **Reserva:** onde você monta a sua reserva.
+3. **Resumo:** mostra os dados escolhidos e o valor total.
+4. **Promoções:** lista de ofertas do hotel.
+5. **Sobre:** mostra o nome do desenvolvedor e o ano de criação.
+
+<img width="555" height="709" alt="Captura de tela 2026-11-16 003915" src="https://github.com/user-attachments/assets/51e8a25e-aec9-4f33-8dee-94970e03b5c4" />
+<img width="550" height="710" alt="Captura de tela 2026-11-16 003931" src="https://github.com/user-attachments/assets/c05ffc3d-6ac6-486d-ab72-e873c2c97968" />
+<img width="543" height="664" alt="Captura de tela 2026-11-16 003953" src="https://github.com/user-attachments/assets/b9eb0c84-bcab-4f77-9ea0-a357e2da60e7" />
+<img width="557" height="577" alt="Captura de tela 2026-11-16 004019" src="https://github.com/user-attachments/assets/a57090d9-7921-4fa8-a1ca-212f92bdd104" />
 
 
-### AULA 7 - CRIANDO APLICATIVOS COM .NET MAUI - APPHOTEL - EXIBINDO DADOS DE UMA MODEL NO XAML
-- 00:00 Introdução
-- 00:47 Resumo da Interface gráfica com Model
-- 02:45 Definindo o Model da Hospedagem
-- 05:15 Propriedades somente leitura
-- 06:50 Propriedade para calcular o valor da Hospedagem
-- 11:17 Implementando o botão Avançar
-- 15:43 Trocando os dados de tela com ```BindingContext```
-- 17:12 Mostrando dados passados por ```BindingContext```
-- 19:29 Visualizando falhas de associação no XAML
-- 20:55 Mostrando todos os dados do ```BindingContext```
-- 23:07 Formatando datas e formatos monetários no XAML
-- 28:17 Definição das cores do aplicativo
-- 30:26 Entendendo a formatação de estilos no XAML
-- 32:25 Ajustando posicionamentos Horizontais
-- 36:36 Definindo espaçamentos com ```Spacing``` no XAML
-- 41:54 Revisando as formatações do App
-- 43:30 Conclusão
+## 🛠️ Tecnologias usadas
 
-### AULA 8 - CRIANDO APLICATIVOS COM .NET MAUI - EXECUTANDO O APP NO ANDROID - EMULADOR E CELULAR FÍSICO
-- 00:00 Introdução
-- 02:17 Abrindo o Projeto Maui através do GitHub
-- 03:43 Executando o App no Windows 11
-- 04:46 Orientações quanto ao Emulador Android
-- 07:06 Gerenciador de Dispositivos Android
-- 09:02 Verificando instalação do Hyper-v
-- 11:20 Executando no Dispositivo Físico
-- 11:41 Colocando o celular físico no Modo Desenvolvedor
-- 15:17 Confirmação de Instalação do App
-- 17:49 Testando emulador com Hyper-v
-- 19:02 Executando o App no Android
-- 21:25 Comprando a versão Windows e Android
+| Tecnologia | Para que foi usada |
+|------------|--------------------|
+| **.NET MAUI** | Criar o aplicativo para Windows e Android com um único código |
+| **C#** | Programar as regras do app, como o cálculo do valor |
+| **XAML** | Montar o visual das telas (botões, textos, cores) |
+| **Visual Studio** | Programa usado para criar e testar o app |
+| **Git e GitHub** | Guardar o projeto e compartilhar com o professor |
 
-## CURTIU MEU TRABALHO?
-Você pode me ajudar com um pix para tiago@tiago.blog.br 🍻
+Componentes de tela usados: `Stepper` (quantidade de pessoas), `Picker` (lista de quartos), `DatePicker` (escolha de datas), `CollectionView` (lista de promoções) e `BindingContext` (envio dos dados de uma tela para a outra).
 
-Atualizado em 2025
+## 🧮 Como o valor é calculado
+
+O app soma o preço de cada pessoa por dia e multiplica pelo número de dias.
+
+| Quarto | Adulto (por dia) | Criança (por dia) |
+|--------|------------------|-------------------|
+| Suíte Super Luxo | R$ 110,00 | R$ 55,00 |
+| Suíte Luxo | R$ 80,00 | R$ 40,00 |
+| Suíte Single | R$ 50,00 | R$ 25,00 |
+| Suíte Crise | R$ 25,00 | R$ 12,50 |
+
+## ▶️ Como abrir o app
+
+1. Baixe o projeto do GitHub.
+2. Abra o arquivo `MauiAppHotel.sln` no Visual Studio.
+3. Escolha onde quer testar: no computador (Windows) ou no emulador de celular Android.
+4. Aperte **F5** e espere o app abrir.
+
+## 👨‍💻 Autor
+
+**João**
+Desenvolvimento de Sistemas, 2026
